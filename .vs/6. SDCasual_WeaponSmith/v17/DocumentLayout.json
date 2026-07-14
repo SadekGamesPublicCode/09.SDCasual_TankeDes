@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\assets\\scripts\\uis\\patrolsc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uis\\patrolsc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\assets\\scripts\\commons\\datasc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\commons\\datasc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\assets\\scripts\\general ctr\\generalsc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general ctr\\generalsc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\assets\\scripts\\uis\\pausesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uis\\pausesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\assets\\scripts\\gameplay ctr\\gameplaysc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameplay ctr\\gameplaysc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\assets\\scripts\\general ctr\\gameoversc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general ctr\\gameoversc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\assets\\scripts\\homesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\homesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\assets\\scripts\\gameplay ctr\\pbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameplay ctr\\pbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\assets\\scripts\\adsmn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\adsmn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\assets\\resource\\enemysc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|solutionrelative:assets\\resource\\enemysc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\assets\\scripts\\spawnersc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnersc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\assets\\scripts\\uis\\ratingsc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uis\\ratingsc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\assets\\scripts\\general ctr\\loadsc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DEF93C-134B-5670-E9F2-DBA36B03D123}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general ctr\\loadsc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnemySC.cs",
+              "DocumentMoniker": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Resource\\EnemySC.cs",
+              "RelativeDocumentMoniker": "Assets\\Resource\\EnemySC.cs",
+              "ToolTip": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Resource\\EnemySC.cs",
+              "RelativeToolTip": "Assets\\Resource\\EnemySC.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T07:54:37.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PBullet.cs",
+              "DocumentMoniker": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\Gameplay Ctr\\PBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Gameplay Ctr\\PBullet.cs",
+              "ToolTip": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\Gameplay Ctr\\PBullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Gameplay Ctr\\PBullet.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB8AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T10:55:11.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataSC.cs",
+              "DocumentMoniker": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\Commons\\DataSC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Commons\\DataSC.cs",
+              "ToolTip": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\Commons\\DataSC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Commons\\DataSC.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAAKUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T10:22:01.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GeneralSC.cs",
+              "DocumentMoniker": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\General Ctr\\GeneralSC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\General Ctr\\GeneralSC.cs",
+              "ToolTip": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\General Ctr\\GeneralSC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\General Ctr\\GeneralSC.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAUwLoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T09:12:01.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdsMN.cs",
+              "DocumentMoniker": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\AdsMN.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AdsMN.cs",
+              "ToolTip": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\AdsMN.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AdsMN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T07:03:21.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatrolSC.cs",
+              "DocumentMoniker": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\UIs\\PatrolSC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIs\\PatrolSC.cs",
+              "ToolTip": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\UIs\\PatrolSC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIs\\PatrolSC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T10:20:41.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameplaySC.cs",
+              "DocumentMoniker": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\Gameplay Ctr\\GameplaySC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Gameplay Ctr\\GameplaySC.cs",
+              "ToolTip": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\Gameplay Ctr\\GameplaySC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Gameplay Ctr\\GameplaySC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T03:50:11.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SpawnerSC.cs",
+              "DocumentMoniker": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\SpawnerSC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnerSC.cs",
+              "ToolTip": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\SpawnerSC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpawnerSC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T03:50:04.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RatingSC.cs",
+              "DocumentMoniker": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\UIs\\RatingSC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIs\\RatingSC.cs",
+              "ToolTip": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\UIs\\RatingSC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIs\\RatingSC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T09:12:43.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PauseSC.cs",
+              "DocumentMoniker": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\UIs\\PauseSC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIs\\PauseSC.cs",
+              "ToolTip": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\UIs\\PauseSC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIs\\PauseSC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T09:04:37.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameOverSC.cs",
+              "DocumentMoniker": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\General Ctr\\GameOverSC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\General Ctr\\GameOverSC.cs",
+              "ToolTip": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\General Ctr\\GameOverSC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\General Ctr\\GameOverSC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T08:52:47.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeSC.cs",
+              "DocumentMoniker": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\HomeSC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HomeSC.cs",
+              "ToolTip": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\HomeSC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HomeSC.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T08:49:59.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoadSC.cs",
+              "DocumentMoniker": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\General Ctr\\LoadSC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\General Ctr\\LoadSC.cs",
+              "ToolTip": "D:\\Projects\\2D Project - SDCasual\\6. SDCasual_WeaponSmith\\Assets\\Scripts\\General Ctr\\LoadSC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\General Ctr\\LoadSC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T08:48:04.502Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

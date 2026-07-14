@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\2D Project\\2D_DinoAdven\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{491120BA-D3FA-D8A4-719F-1DCC66726E0F}|Assembly-CSharp.csproj|d:\\projects\\2d project\\2d_dinoadven\\assets\\challengesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{491120BA-D3FA-D8A4-719F-1DCC66726E0F}|Assembly-CSharp.csproj|solutionrelative:assets\\challengesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChallengeSC.cs",
+              "DocumentMoniker": "D:\\Projects\\2D Project\\2D_DinoAdven\\Assets\\ChallengeSC.cs",
+              "RelativeDocumentMoniker": "Assets\\ChallengeSC.cs",
+              "ToolTip": "D:\\Projects\\2D Project\\2D_DinoAdven\\Assets\\ChallengeSC.cs",
+              "RelativeToolTip": "Assets\\ChallengeSC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T10:51:16.414Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
