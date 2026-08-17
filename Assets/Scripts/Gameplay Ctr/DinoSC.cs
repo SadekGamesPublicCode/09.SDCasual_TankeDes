@@ -190,4 +190,13 @@ public class DinoSC : MonoBehaviour
     {
 
     }
+    public void OnDodge()
+    {
+        gameObject.transform.localScale = new Vector3(transform.position.x / 2, transform.position.y, transform.position.z);
+        Invoke(nameof(OnResetScale), 1f);
+    }
+    private void OnResetScale()
+    {
+        gameObject.transform.localScale = new Vector3(transform.position.x *2, transform.position.y, transform.position.z);
+    }
 }

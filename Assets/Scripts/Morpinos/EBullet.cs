@@ -13,7 +13,7 @@ public class EBullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += Vector3.left * Time.deltaTime * 2f;
+        transform.position += Vector3.left * Time.deltaTime * 5f;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class LoadSC : MonoBehaviour
 {
     [SerializeField] GeneralSC genCtr;
-    [SerializeField] GameObject logoIMG;
+    [SerializeField] Slider loadSlide;
     private float loadSpd1, loadSpd2;
     public float targetAlpha = 1f;
     void Start()
@@ -17,20 +17,21 @@ public class LoadSC : MonoBehaviour
     }
     void SetupStart()
     {
-        logoIMG.GetComponent<Image>().fillAmount = 0;
+        loadSlide.value = 0;
+        loadSlide.maxValue = 1;
+        loadSlide.minValue = loadSlide.value;
     }
 
     IEnumerator RunLoadGameLogo()
     {
         loadSpd2 = Random.Range(0.01f, 0.5f);
-        if (logoIMG.GetComponent<Image>().fillAmount >= 1)
+        if (loadSlide.value >= 1)
         {
-            logoIMG.gameObject.SetActive(true);
             StopCoroutine(RunLoadGameLogo());
             SceneManager.LoadScene("01_MainScene");
         }
         yield return new WaitForSeconds(0.1f);
-        logoIMG.GetComponent<Image>().fillAmount += loadSpd2 * Time.deltaTime * 10;
+        loadSlide.value += loadSpd2 * Time.deltaTime * 10;
         StartCoroutine(RunLoadGameLogo());
     }
 }

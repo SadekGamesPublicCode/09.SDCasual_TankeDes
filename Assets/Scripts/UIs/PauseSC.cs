@@ -19,7 +19,6 @@ public class PauseSC : Singleton<PauseSC>
     }
     public void OnResume() => gameCtr.isEnablePlay = true;
     public void OnHome() => genCtr.ToHome();
-    public void OnQuit() => Application.Quit(0);
 
     private void CheckGameMode()
     {

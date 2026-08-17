@@ -35,3 +35,8 @@ google-services.json
 /Library
 /obj
 /Logs
+/.vs
+/Library
+/Logs
+/obj
+/Temp

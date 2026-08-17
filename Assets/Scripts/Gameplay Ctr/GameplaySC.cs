@@ -168,18 +168,19 @@ public class GameplaySC : MonoBehaviour
     #region Character controller
     public void AttackNormal()
     {
-        print("in attack normal");
         character.OnAttackByTouch();
     }
     public void MoveForward()
     {
-        print("in move forward");
         character.CharForwardConsole();
     }
     public void MoveBackward()
     {
-        print("in move back");
         character.CharBackwardConsole();
+    }
+    public void Dodge()
+    {
+        character.CharDodgeConsole();
     }
     #endregion
 }

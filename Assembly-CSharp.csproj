@@ -60,11 +60,10 @@
     <Analyzer Include="D:\Unity Setup\Unity Engine\2022.3.62f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Morpinos\MegarhinosSC.cs" />
     <Compile Include="Assets\Scripts\General Ctr\MainThemeSC.cs" />
+    <Compile Include="Assets\Scripts\Enemies\IFV_Enemy.cs" />
     <Compile Include="Assets\Scripts\Gameplay Ctr\GameplaySC.cs" />
     <Compile Include="Assets\Scripts\UIs\PlayerInforSC.cs" />
-    <Compile Include="Assets\Scripts\Morpinos\MorpinosSC.cs" />
     <Compile Include="Assets\Scripts\Gameplay Ctr\DinoSC.cs" />
     <Compile Include="Assets\Scripts\Commons\DataSC.cs" />
     <Compile Include="Assets\Scripts\Morpinos\EBullet.cs" />
@@ -72,20 +71,18 @@
     <Compile Include="Assets\Scripts\UIs\RatingSC.cs" />
     <Compile Include="Assets\Scripts\UIs\PauseSC.cs" />
     <Compile Include="Assets\Scripts\UIs\CreditSC.cs" />
-    <Compile Include="Assets\Scripts\Morpinos\DemonateSC.cs" />
+    <Compile Include="Assets\Scripts\Ads\AdConfig.cs" />
     <Compile Include="Assets\Scripts\PromotionSC.cs" />
-    <Compile Include="Assets\Scripts\IFV_Enemy.cs" />
-    <Compile Include="Assets\Resource\EnemySC.cs" />
+    <Compile Include="Assets\Scripts\Ads\AdsMN.cs" />
     <Compile Include="Assets\Scripts\HomeSC.cs" />
     <Compile Include="Assets\Scripts\SpawnerSC.cs" />
     <Compile Include="Assets\Scripts\UIs\AchievementSC.cs" />
     <Compile Include="Assets\Scripts\SoundSC.cs" />
     <Compile Include="Assets\Scripts\UIs\LeaderSC.cs" />
     <Compile Include="Assets\Scripts\ChallengeSpawnerSC.cs" />
-    <Compile Include="Assets\Scripts\Morpinos\ArachilingSC.cs" />
     <Compile Include="Assets\Scripts\Commons\Singleton.cs" />
-    <Compile Include="Assets\Scripts\AdsMN.cs" />
     <Compile Include="Assets\Scripts\SceneSC.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemySC.cs" />
     <Compile Include="Assets\Scripts\UIs\LeaderboardSC.cs" />
     <Compile Include="Assets\Scripts\General Ctr\GameOverSC.cs" />
     <Compile Include="Assets\Scripts\General Ctr\SettingSC.cs" />
@@ -94,12 +91,8 @@
     <Compile Include="Assets\Scripts\Gameplay Ctr\Obstacles.cs" />
     <Compile Include="Assets\Scripts\UIs\PatrolSC.cs" />
     <Compile Include="Assets\Scripts\Gameplay Ctr\PBullet.cs" />
-    <Compile Include="Assets\Scripts\Morpinos\TerrolingSC.cs" />
-    <Compile Include="Assets\Scripts\Morpinos\CreeplingSC.cs" />
     <Compile Include="Assets\Scripts\General Ctr\LoadSC.cs" />
-    <Compile Include="Assets\Scripts\Morpinos\BroodipinosSC.cs" />
     <Compile Include="Assets\Scripts\UIs\ShopSC.cs" />
-    <Compile Include="Assets\Scripts\AdConfig.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

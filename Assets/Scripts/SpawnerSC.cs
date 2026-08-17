@@ -23,7 +23,7 @@ public class SpawnerSC : MonoBehaviour
         float minWaitTime = 0.2f;
         float decrement = 0.1f;
         tempCal = baseWaiTime - (gameCtr.curLvl - 1) * decrement;
-        spawnWaitTime = tempCal;
+        spawnWaitTime = 3;
     } 
     private void SpawnObjects()
     {
