@@ -2,25 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Cinemachine;
 
 public class GameplaySC : MonoBehaviour
 {
     [HideInInspector] GeneralSC genControl;
     [HideInInspector] DataSC data;
-    [SerializeField] DinoSC character;
+    [SerializeField] List<DinoSC> playerList = new List<DinoSC>();
     [SerializeField] GameObject ground, moutainBG, biomeBG;
     [SerializeField] SpawnerSC spawnControl;
-    //[SerializeField] List<GameObject> groundToSpawn = new List<GameObject>();
-    [SerializeField] List<GameObject> livesArray = new List<GameObject>();
-    [SerializeField] Camera curCamCor;
-    [SerializeField] Text ingameScoreTxt, levelTxt;
+    [SerializeField] List<Sprite> groundToSpawn = new List<Sprite>();
 
-    private Vector3 currentGroundPos;
+    [SerializeField] List<Sprite> biomeBGList = new List<Sprite>();
+    [SerializeField] Text ingameScoreTxt, levelTxt, curAmmoTxt;
+    [SerializeField] Slider playerHPBar;
+    public DinoSC curPlayer;
     public int curScore, curLvl, maxLvl;
-    public CinemachineVirtualCamera vcam;
-    private Transform lookTarget;
     public bool isEnablePlay; //Pause/Resume checker
+    public string playerName;
+    public int curPlayerApparance;
     private void Awake()
     {
         genControl = GameObject.Find("GenGameControlMN").GetComponent<GeneralSC>();
@@ -31,12 +30,19 @@ public class GameplaySC : MonoBehaviour
 
     private void Start()
     {
-        spawnControl = GameObject.Find("OBJ_SpawnerArcade").GetComponent<SpawnerSC>();
         StartCoroutine(GroundAnim()); //Control of ground, cloud and other relate object on scene;
         StartCoroutine(BiomeBGAnim());
         StartCoroutine(MoutainAnim());
-        lookTarget = null;
         GenerateGameplay();
+        OnDecideRandomBackroundApparance();
+    }
+
+    private void OnDecideRandomBackroundApparance()
+    {
+        int tempOrder;
+        tempOrder = Random.Range(0, groundToSpawn.Count);
+        ground.GetComponent<SpriteRenderer>().sprite = groundToSpawn[tempOrder];
+        biomeBG.GetComponent<SpriteRenderer>().sprite = biomeBGList[tempOrder];
     }
 
     public void OnPause()
@@ -57,15 +63,15 @@ public class GameplaySC : MonoBehaviour
 
     public void GenerateGameplay()
     {
-        character = Instantiate(character, new Vector3(-4, 0, 0), Quaternion.identity);
+        curPlayer = Instantiate(playerList[curPlayerApparance], new Vector3(-4, 0, 0), Quaternion.identity); 
+        playerName = curPlayer.name;
+        spawnControl = GameObject.Find("OBJ_SpawnerArcade").GetComponent<SpawnerSC>();
         spawnControl.OnAssistSpawnerElements();
+
         CancelInvoke(nameof(AddScore));
         isEnablePlay = true;
-        lookTarget = GameObject.Find("OBJ_Tank(Clone)").GetComponent<Transform>().transform;
         SetIngameStat();
-        if(livesArray.Count != 2) { ShowLives(); }
         InvokeRepeating(nameof(AddScore), 1f, 1f);
-        //vcam.Follow = lookTarget;
     }
     void AddScore()
     {
@@ -88,11 +94,11 @@ public class GameplaySC : MonoBehaviour
     public void OnGameLose()
     {
         UpdatePlayerPrefsStat();
-        lookTarget = null;
-        //vcam.Follow = null;
         spawnControl.StopGameplay();
         CancelInvoke(nameof(AddScore));
     }
+
+    #region Background Anim
     private IEnumerator GroundAnim()
     {                
         yield return new WaitForSeconds(0.1f);
@@ -115,24 +121,7 @@ public class GameplaySC : MonoBehaviour
         else biomeBG.transform.position += Vector3.left;
         StartCoroutine(BiomeBGAnim());
     }
-    public void ShowLives()
-    {
-        //call by start/replay game
-        if (livesArray[2].activeSelf == false)
-        {
-            livesArray[0].SetActive(true);
-            livesArray[1].SetActive(true);
-            livesArray[2].SetActive(true);
-        }
-    }
-    public void UnShowLive(int liveOders)
-    {
-        //call each time hit
-        if(liveOders >= 0)
-        {
-            livesArray[liveOders].SetActive(false);
-        }
-    }
+    #endregion
     public void UpdatePlayerPrefsStat()
     {
         int newLvl;
@@ -159,28 +148,48 @@ public class GameplaySC : MonoBehaviour
     private void UpdateIngameScore() => ingameScoreTxt.text = curScore.ToString();
     private void UpdateIngameLvl() => levelTxt.text = curLvl.ToString();
 
-    public IEnumerator OnChangeBackgroundColor()
-    {
-        yield return new WaitForSeconds(0.5f);
-        //curCamCor.backgroundColor.g
-    }
-
     #region Character controller
     public void AttackNormal()
     {
-        character.OnAttackByTouch();
+        curPlayer.OnAttackByTouch();
     }
     public void MoveForward()
     {
-        character.CharForwardConsole();
+        curPlayer.CharForwardConsole();
     }
     public void MoveBackward()
     {
-        character.CharBackwardConsole();
+        curPlayer.CharBackwardConsole();
     }
     public void Dodge()
     {
-        character.CharDodgeConsole();
+        curPlayer.CharDodgeConsole();
     }
     #endregion
+
+    public void UpdateHPBar(int state, int value)
+    {
+        if(state == 0) 
+        {
+            playerHPBar.maxValue = curPlayer.hp;
+            playerHPBar.value = curPlayer.hp;
+        }
+        else if(state == 1)
+        {
+            playerHPBar.value = value;
+        }
+
+    }
+    public void UpdateCurAmmo(int value)
+    {
+        //curAmmoTxt.text = curPlayer.bulletAmmount.ToString();
+        if (value == -1)
+        {
+            curAmmoTxt.text = "RELOADING";
+        }
+        else
+        {
+            curAmmoTxt.text = value.ToString();
+        }
+    }
 }

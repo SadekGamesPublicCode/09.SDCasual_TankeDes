@@ -175,7 +175,7 @@ public class DataSC : MonoBehaviour
     #region Checking Zone
     private bool CheckFirstPlay()
     {
-        print("FirstPlay: " + PlayerPrefs.GetInt("HasPlayed"));
+        //print("FirstPlay: " + PlayerPrefs.GetInt("HasPlayed"));
         if (PlayerPrefs.GetInt("HasPlayed") == 1)
         {
             return isFirstPlay = false;

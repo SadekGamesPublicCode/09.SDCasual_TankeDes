@@ -20,7 +20,6 @@ public class EnemySC : MonoBehaviour
         isGrounded = false;
         colBody = GetComponent<Collider2D>();
         colBody.isTrigger = true;
-        isGrounded = false;
         genCtr = GameObject.Find("GenGameControlMN").GetComponent<GeneralSC>();
         if(genCtr.gameMode == 1)
         {
@@ -42,8 +41,15 @@ public class EnemySC : MonoBehaviour
     internal void OnMoveLinear() { gameObject.transform.position += Vector3.left * moveSpd * Time.deltaTime; }
     internal void OnAutoAttack() 
     {
-        objectPos = gameObject.transform.position;
-        Instantiate(ebullet, new Vector3(objectPos.x - 1f, objectPos.y + 0.4f, 0), Quaternion.identity);
+        if(arcadeCtr.isEnablePlay == true) 
+        {
+            if (isGrounded == true)
+            {
+                objectPos = gameObject.transform.position;
+                Instantiate(ebullet, new Vector3(objectPos.x - 1f, objectPos.y + 0.4f, 0), Quaternion.identity);
+            }
+        }
+       
     }
     internal void OnCollisionEnter2D(Collision2D collision)
     {

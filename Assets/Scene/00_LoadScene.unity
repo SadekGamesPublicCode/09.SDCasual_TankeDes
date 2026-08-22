@@ -13186,8 +13186,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDestroyOnLoad: 0
+  data: {fileID: 85103971}
+  soundOBJ: {fileID: 1393277567}
+  mainThemeOBJ: {fileID: 1256952463}
   versionTxt: {fileID: 1096333581}
   pNameToEdit: {fileID: 916854437}
+  adsMn: {fileID: 512610732}
   isLoadByInit: 0
   deviceMode: 0
   sceneActiveindex: 0
